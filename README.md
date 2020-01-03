@@ -69,3 +69,18 @@ def main():
 if __name__ == "__main__":
 	main()
 ```
+
+Run python file:
+```
+python hello.py
+```
+
+Create a hello.js file:
+```javascript
+console.log('Hello World');
+```
+
+Run Javascript file
+```
+node hello.js
+```

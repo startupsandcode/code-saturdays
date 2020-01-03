@@ -87,13 +87,10 @@ node hello.js
 
 ## Web Node Version
 Run npm init  
+This will initialize the package.json that configures the setup for node.js
 *NOTE: For entry point, type web.js*
 ```
 npm init
-```
-Install Express
-```
-npm install express
 ```
 
 Create web.js
@@ -110,6 +107,35 @@ app.listen(port, () => console.log(`Example app listening on port ${port}!`))
 Run website:
 ```
 node web.js
+```
+
+Browse to
+http://localhost:8080
+
+You can press ctrl-c in the terminal to stop the server.
+
+For Express:
+Install Express  
+Express is a simple webserver that is common for node.js web applications.  
+This command will install a bunch of dependencies in the node_modules directory.  
+*DO NOT CHANGE THAT NODE_MODULES FOLDER*
+```
+npm install express
+```
+Create express.js
+```javascript
+const express = require('express')
+const app = express()
+const port = 3000
+
+app.get('/', (req, res) => res.send('Hello World!'))
+
+app.listen(port, () => console.log(`Example app listening on port ${port}!`))
+```
+
+Run website:
+```
+node express.js
 ```
 
 Browse to

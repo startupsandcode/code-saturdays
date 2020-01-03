@@ -47,3 +47,20 @@ Open that folder in VS-Code
 And now we can begin writing some basic code.
 
 I'm going to focus on Python 3 to start.  
+
+## Python3
+
+### Create a virtual environment
+
+```
+python3 -m venv ./venv
+```
+
+Create a hello.py file:
+```python
+def main():
+	print ('Hello World')
+
+if __name__ == "__main__":
+	main()
+```

@@ -56,6 +56,11 @@ I'm going to focus on Python 3 to start.
 python3 -m venv ./venv
 ```
 
+Activate new virtual environment
+```
+source venv/bin/activate
+```
+
 Create a hello.py file:
 ```python
 def main():

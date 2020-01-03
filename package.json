@@ -1,0 +1,23 @@
+{
+  "name": "code-saturdays",
+  "version": "1.0.0",
+  "description": "Welcome to the Code-Saturdays Github repo.",
+  "main": "web.js",
+  "scripts": {
+	"start": "node web.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lotekmedia/code-saturdays.git"
+  },
+  "author": "John Mann",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lotekmedia/code-saturdays/issues"
+  },
+  "homepage": "https://github.com/lotekmedia/code-saturdays#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

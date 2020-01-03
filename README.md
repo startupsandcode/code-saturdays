@@ -48,8 +48,6 @@ And now we can begin writing some basic code.
 
 I'm going to focus on Python 3 to start.  
 
-## Python3
-
 ### Create a virtual environment
 
 ```
@@ -61,6 +59,7 @@ Activate new virtual environment
 source venv/bin/activate
 ```
 
+## Python Version
 Create a hello.py file:
 ```python
 def main():
@@ -75,6 +74,7 @@ Run python file:
 python hello.py
 ```
 
+## Node.js version
 Create a hello.js file:
 ```javascript
 console.log('Hello World');
@@ -84,3 +84,35 @@ Run Javascript file
 ```
 node hello.js
 ```
+
+## Web Node Version
+Run npm init  
+*NOTE: For entry point, type web.js*
+```
+npm init
+```
+Install Express
+```
+npm install express
+```
+
+Create web.js
+```javascript
+const express = require('express')
+const app = express()
+const port = 3000
+
+app.get('/', (req, res) => res.send('Hello World!'))
+
+app.listen(port, () => console.log(`Example app listening on port ${port}!`))
+```
+
+Run website:
+```
+node web.js
+```
+
+Browse to
+http://localhost:3000
+
+# TADA!

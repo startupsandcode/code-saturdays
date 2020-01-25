@@ -131,3 +131,4 @@ dmypy.json
 *.key
 .vscode
 node_modules/
+static/

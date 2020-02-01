@@ -148,4 +148,6 @@ http://localhost:3000
 # Lesson 2 
 I added the assets directory, flask-scss, and the static directory will get created by adding Scss(app) in the __init__.py file.
 
+# Lesson 3
+Working with forms
 

@@ -151,3 +151,7 @@ I added the assets directory, flask-scss, and the static directory will get crea
 # Lesson 3
 Working with forms
 
+# Lesson 4
+Databases
+
+

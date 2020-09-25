@@ -1,0 +1,4 @@
+*.key
+.vscode
+node_modules/
+static/
